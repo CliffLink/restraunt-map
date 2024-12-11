@@ -12,8 +12,15 @@ body {
 }
 
 header {
-    height: 50px;
     background-color: #fff;
+}
+
+.link {
+    padding: 20px;
+}
+
+.link:hover {
+    background-color: #e3e3e3;
 }
 
 .headerLogo {
@@ -28,13 +35,20 @@ header {
     justify-content: space-around;
     margin: 0 30px;
     align-items: center;
-    height: 50px;
 }
 
 .reserve {
     padding: 10px;
     background-color: #2eb3bf;
     border-radius: 50px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+.reserve:hover {
+    background-color: #16565c;
+    color: white;
 }
 
 .aboutUs {
@@ -69,23 +83,35 @@ header {
     background-color: #2eb3bf;
     border-radius: 50px;
     margin-top: 50px;
+    font-size: 17px;
 
+}
+
+.buttonReserve:hover {
+    background-color: #16565c;
 }
 
 .buttonDelivery {
     padding: 15px;
-    border: #2eb3bf solid;
+    outline: #2eb3bf solid 3px;
     border-radius: 50px;
+    outline-offset: -3px;
     justify-content: space-around;
     margin-top: 10px;
+    font-size: 17px;
+}
+
+.buttonDelivery:hover {
+    background-color: #2eb3bf;
 }
 
 .contacts {
     background-color: #e8e8e8;
-    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .workTime {
@@ -126,7 +152,7 @@ header {
 }
 
 .pointLogo {
-    background-image: url('https://png.pngtree.com/png-vector/20211105/ourmid/pngtree-pinpoint-location-icon-graphic-png-image_4022030.png');
+    background-image: url('https://cdn-icons-png.flaticon.com/512/7721/7721885.png');
     height: 50px;
     width: 50px;
     background-size: cover;
@@ -175,7 +201,6 @@ header {
 }
 
 .menu {
-    height: 600px;
     display: flex;
 
 }
@@ -183,7 +208,7 @@ header {
 .menuImage {
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/47/a9/60/family-platter.jpg');
     height: 600px;
-    width: 50%;
+    width: 600px;
     background-size: cover;
     background-position: center;
 }
@@ -191,7 +216,7 @@ header {
 .menuBackground {
     background-image: url('https://img.freepik.com/premium-photo/abstract-black-textured-with-scratches-background_1178440-3773.jpg?semt=ais_hybrid');
     height: 600px;
-    width: 50%;
+    width: 600px;
     display: flex;
     align-items: center;
 }
@@ -236,7 +261,6 @@ header {
 }
 
 .gallery {
-    height: 526px;
     background-color: #e8e8e8;
     text-align: center;
     display: flex;
@@ -312,20 +336,20 @@ header {
 }
 
 .afisha {
-    height: 600px;
+
     background-color: #e8e8e8;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .artistWrapper {
-    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 1000px;
+    width: 100%;
     margin-top: 45px;
 }
 
@@ -379,7 +403,6 @@ p {
 }
 
 .sales {
-    height: 400px;
     background-color: #e8e8e8;
     display: flex;
     align-items: center;
@@ -388,11 +411,10 @@ p {
 }
 
 .salesWrapper {
-    height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 1000px;
+    width: 100%;
     margin-top: 45px;;
 }
 
@@ -442,7 +464,6 @@ p {
 
 
 footer {
-    height: 200px;
     background-color: black;
 }
 
@@ -554,6 +575,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 20px;
 }
 
 .img__logo {
@@ -603,5 +627,170 @@ footer {
     height: 200px;
     width: 300px;
     opacity: .4;
+}
+
+.logo__text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1199px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .link {
+        padding: 0;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 50px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: #e8e8e8;
+    }
+
+    .interior {
+        flex-direction: column;
+        align-items: center;
+        background-color: #e8e8e8;
+        
+    }
+
+    .banket {
+        flex-direction: column;
+        align-items: center;
+        background-color: #e8e8e8;
+    }
+
+    .artistWrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .artist1, .artist2, .artist3, .artist4 {
+        height: 350px;
+        margin-top: 30px;
+        margin: 0 30px;
+    }
+
+    .mapBlock {
+        display: none;
+    }
+
+    .salesWrapper {
+        flex-direction: column;
+    }
+
+    .sale1, .sale2, .sale3 {
+        margin-top: 30px;
+    }
+    .images {
+        width: 600px;
+    }
+
+    .gallery {
+        align-items: center;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+
+@media (max-width: 599px) {
+    .images {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+    }
+
+    .gallery {
+        align-items: center;
+    }
+
+    .images {
+        width: 300px;
+    }
+    
+    .menuImage{
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .menuBackground{
+        height: 400px;
+        width: 400px;
+    }
+
+    .interiorImage{
+        height: 400px;
+        width: 400px;
+    }
+
+    .interiorBackground {
+        width: 400px;
+    }
+
+    .banketImage {
+        height: 400px;
+        width: 400px;
+    }
+
+    .banketBackground {
+    
+        width: 400px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .banket {
+        width: 100%;
+    }
+
+    .interior {
+        width: 100%;
+    }
+
+    .artist1, .artist2, .artist3, .artist4 {
+        margin-top: 30px;
+    }
+
+    .interior__text {
+        margin: 0;
+        padding: 0 25px;
+    }
+
+    .banket__text {
+        margin: 0;
+        padding: 0 25px;
+    }
+    
+}
+
+@media (max-width: 899px) {
+    .linksContainer {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
