@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    height: 50px;
+    background-color: #fff;
+}
+
+.headerLogo {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/652956cfe0d38551454ec104/26b46d63-2506-4bbc-b6eb-839df7391eeb/Lavash+Cafe+Logo+Transparent.png?format=1500w');
+    height: 50px;
+    width: 55px;
+    background-size: cover;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    align-items: center;
+    height: 50px;
+}
+
+.reserve {
+    padding: 10px;
+    background-color: #2eb3bf;
+    border-radius: 50px;
+}
+
+.aboutUs {
+    height: 600px;
+    background-image: url('https://media.zenfs.com/en/wcmh_articles_195/7e131157416ccb6792acb67eac2139b7');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    filter: brightness(100%);
+}
+
+.aboutUsInf {
+    height: 600px;
+    width: 220px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+
+}
+.logo {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/652956cfe0d38551454ec104/26b46d63-2506-4bbc-b6eb-839df7391eeb/Lavash+Cafe+Logo+Transparent.png?format=1500w');
+    height: 200px;
+    background-size: cover;
+    width: 220px;
+
+}
+
+.buttonReserve {
+    padding: 15px;
+    background-color: #2eb3bf;
+    border-radius: 50px;
+    margin-top: 50px;
+
+}
+
+.buttonDelivery {
+    padding: 15px;
+    border: #2eb3bf solid;
+    border-radius: 50px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.contacts {
+    background-color: #e8e8e8;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.workTime {
+    height: 140px;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.workTimeLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.watchLogo {
+    background-image: url('https://cdn.icon-icons.com/icons2/567/PNG/512/clock_icon-icons.com_54407.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+
+
+.adress {
+    height: 140px;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adressLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.pointLogo {
+    background-image: url('https://png.pngtree.com/png-vector/20211105/ourmid/pngtree-pinpoint-location-icon-graphic-png-image_4022030.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.whatsapp {
+    height: 140px;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whatsappLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.whatsappImage {
+    background-image: url('https://img.icons8.com/?size=512&id=16713&format=png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.telegram {
+    height: 140px;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.telegramLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.telegramImage {
+    background-image: url('https://pngicon.ru/file/uploads/telegram.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.menu {
+    height: 600px;
+    display: flex;
+
+}
+
+.menuImage {
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/47/a9/60/family-platter.jpg');
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.menuBackground {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-black-textured-with-scratches-background_1178440-3773.jpg?semt=ais_hybrid');
+    height: 600px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.interior {
+    display: flex;
+
+}
+
+.interiorImage {
+    background-image: url('https://s3-media0.fl.yelpcdn.com/bphoto/Fu08P07fADgblF8YfJbFBw/348s.jpg');
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+}
+
+.interiorBackground {
+    background-image: url('https://aduvan.ru/wp-content/uploads/photo-gallery/paper-texturs/paper-texture_(4).jpg');
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.banket {
+    display: flex;
+}
+
+.banketImage {
+    background-image: url('https://www.gdecemo.rs/images/company/large/Lavash%20gdecemo.rs%20enterijer%203-L6e3.jpg');
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+}
+
+.banketBackground {
+    background-image: url('https://aduvan.ru/wp-content/uploads/photo-gallery/paper-texturs/paper-texture_(4).jpg');
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery {
+    height: 526px;
+    background-color: #e8e8e8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.galleryName {
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 50px;
+}
+
+.img1 {
+    background-image: url('https://ediblecolumbus.ediblecommunities.com/sites/default/files/styles/ariticle_landscape__322x214_/public/images/article/article_details/lavash2.png?itok=0wH5-8ow');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img2 {
+    background-image: url('https://www.gdecemo.rs/images/company/large/Lavash%20gdecemo.rs%20knjige-ArQU.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img3 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/652956cfe0d38551454ec104/1025be9e-16fc-4b67-ad43-c08922746d26/120700967_10157897305339118_4696530349726738691_n.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img4 {
+    background-image: url('https://tb-static.uber.com/prod/image-proc/processed_images/e3223afeb9022815d528020deb94fe6e/fb86662148be855d931b37d6c1e5fcbe.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img5 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ1MlEG830txYdG1_sE3R85kwPPwSkQdqZSw&s');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img6 {
+    background-image: url('https://columbusfoodreview.wordpress.com/wp-content/uploads/2009/02/lavash.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img7 {
+    background-image: url('https://media.safarway.com/content/c5815faa-b7a8-4a80-9ae4-c97d811f7b2e_sm.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.img8 {
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/12/55/91/photo1jpg.jpg?w=400&h=-1&s=1');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.afisha {
+    height: 600px;
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.artistWrapper {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    margin-top: 45px;
+}
+
+.artist1 {
+    height: 350px;
+    width: 210px;
+    background-color: #fff;
+    background-image: url('https://ykt.ru/media/afi_l299OythVxL9jPvuESZrqaUFiwIlcTMk.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.artist2 {
+    height: 350px;
+    width: 210px;
+    background-color: #fff;
+    background-image: url('https://pyramida.info/upload/resize_cache/iblock/9e2/720_1000_1/k3t2twh8yzkssuk62czzfa4t07p9d26t.png');
+    background-size: cover;
+    background-position: center;
+}
+.artist3 {
+    height: 350px;
+    width: 210px;
+    background-color: #fff;
+    background-image: url('https://i.ebayimg.com/images/g/0IMAAOSwuXlb02RP/s-l1200.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.artist4 {
+    height: 350px;
+    width: 210px;
+    background-color: #fff;
+    background-image: url('https://rutherfordsource.com/wp-content/uploads/2024/05/Falling-in-Reverse-e1715178577983.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+button {
+    padding: 15px;
+    background-color: #2eb3bf;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: none;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+.sales {
+    height: 400px;
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.salesWrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    margin-top: 45px;;
+}
+
+.sale1 {
+    height: 200px;
+    width: 300px;
+    background-image: url('https://columbusfoodreview.wordpress.com/wp-content/uploads/2009/02/lavash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sale2 {
+    height: 200px;
+    width: 300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ1MlEG830txYdG1_sE3R85kwPPwSkQdqZSw&s');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sale3 {
+    height: 200px;
+    width: 300px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/652956cfe0d38551454ec104/1025be9e-16fc-4b67-ad43-c08922746d26/120700967_10157897305339118_4696530349726738691_n.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.button2 {
+    padding: 15px;
+    background-color: #2eb3bf;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: none;
+    margin-bottom: 50px;
+    
+}
+
+
+
+footer {
+    height: 200px;
+    background-color: black;
+}
+
+.menu__text {
+    color: white;
+    margin: 0 120px;
+    text-align: center;
+}
+
+ p.main{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.interior__text {
+    color: black;
+    margin: 0 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banket__text {
+    color: black;
+    margin: 0 120px;
+    text-align: center;
+}
+
+.fork {
+    width: 50px;
+}
+
+.plate {
+    width: 70px;
+}
+
+.white-fork {
+    width: 60px;
+}
+
+.pngs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 291px;
+    justify-content: center;
+}
+
+.png {
+    margin: 20px 40px;
+}
+
+.delivery-btn {
+    padding: 15px;
+    background-color: #2eb3bf;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: none;
+   
+}
+
+.pngs-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.png-2 {
+    margin: 20px 40px;
+}
+
+.map {
+    display: flex;
+    width: 100%;
+}
+
+.mapBlock {
+    height: 370px;
+    width: 330px;
+    background-color: black;
+    margin-left: 760px;
+    position: absolute;
+    margin-top: 90px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.map-adress, .map-feedback, .map-messanger, .map-phone {
+    margin-top: 30px;
+}
+
+.map-block__text {
+    margin-left: 40px;
+}
+
+.map-contact {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer__container {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.img__logo {
+    margin-top: 10px;
+}
+
+.social {
+    width: 50px;
+}
+
+.lavash {
+    width: 100px;
+}
+
+.sale__footer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.sale__footer-footer {
+    padding: 11px 0;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    z-index: 3;
+}
+
+.sale__footer-text {
+    margin-bottom: 40px;
+    z-index: 3;
+}
+
+.sale__footer-main {
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.dark-background {
+    background-color: black;
+    height: 100;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    opacity: .4;
+}
+
